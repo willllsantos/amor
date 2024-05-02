@@ -1,4 +1,4 @@
-.container{ 
+/*.container{ 
     background-color: cadetblue;
     position: absolute;
     top: 50%;
@@ -40,5 +40,34 @@ h3{
     float: right;
     margin-left: 550px;
 }
+*/
 
+@media only screen and (max-width: 600px) {
+    header {
+        font-size: 40px;
+    }
 
+    h1 {
+        font-size: 30px;
+    }
+
+    .cont {
+        text-align: center;
+    }
+
+    h2,
+    h3 {
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 20px auto;
+        font-size: 30px;
+        text-align: center;
+        background-color: inherit; /* Mantém as cores originais */
+        float: none; /* Remove o float */
+    }
+
+    h3 {
+        margin-left: 0;
+    }
+}
